@@ -14,8 +14,13 @@ Admin Interface: Access Django’s admin panel for managing books and users
 Endpoints
 
 /book/all/ - (GET) List all books
+
 /book/add/ - (POST) Add a new book
+
 /book/<book_id>/edit/ - (GET, POST) Edit a book
+
 /book/<book_id>/delete/ - (DELETE) Delete a book
+
 /book/<book_id>/status/ - (POST) Update book status
+
 /admin/ - (GET) Access admin panel
